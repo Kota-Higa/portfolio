@@ -1,0 +1,81 @@
+body {
+  padding-top: 50px;
+  background-color: aliceblue;
+}
+
+.title{
+margin-left: auto;
+margin-right: auto;
+text-align: center;
+margin-bottom: 48px;
+width: 25%;
+text-shadow: 3px 4px 3px lightskyblue ;
+
+}
+
+.lead {
+text-align: center;
+text-shadow: 3px 4px 3px lightskyblue ;
+
+}
+
+.starter-template {
+padding: 40px 40px;
+background-color: aliceblue;
+}
+
+.col-sm-4{
+margin-bottom: 48px;
+}
+
+.col-sm-6{
+margin-bottom: 48px;
+}
+
+.word-wrapper{
+margin-bottom: 64px;
+}
+
+.word{
+font-size: 320%;
+
+}
+
+.color-hung{
+color: goldenrod;
+text-shadow: 3px 3px 3px lightgray;
+}
+
+.color-soft{
+color: plum;
+text-shadow: 3px 3px 3px lightgray;
+}
+
+.color-plus{
+color: orangered;
+text-shadow: 3px 3px 3px lightgray;
+}
+
+#works{
+margin: 80px 0 48px 0;
+}
+
+
+
+
+.col-sm-6 img{
+width: 320px;
+height: auto;
+}
+
+ul{
+  list-style-type: none;
+  margin-bottom:  48px; ;
+}
+
+
+.jumbotron{
+background-image: url( img/24555465_m.jpg);
+color: whitesmoke;
+height: 600px;
+}

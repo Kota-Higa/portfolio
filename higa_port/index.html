@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>プロフィール</title>
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/flatly/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+   
+</head>
+
+<body>
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Kota's Portofolio</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <!--
+                <a class="navbar-brand" href="#">
+                  画像
+                </a>
+                -->
+            </div>
+            <div id="navbar" class="collapse navbar-collapse">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="#">Home</a></li>
+                    <li><a href="#works">Works</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                </ul>
+            </div>
+            <!--/.nav-collapse -->
+        </div>
+    </nav>
+
+    <div class="jumbotron">
+      <div class="container">
+        <div class="row">
+          <div >
+             <!-- タイトル -->
+             <h1 class="title">Kota's <br>Portofolio </h1>
+             <p class="lead">Thank you for watching</p>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+    <div class="container">
+        <div class="starter-template">
+           
+            <div class="row text-center">
+              <div class="word-wrapper">
+                <h2 class="word">「Stay hungry. Stay foolish.」</h2>
+                <p>ハングリーであれ。愚か者であれ。</p>
+             </div>
+
+              <div class="col-sm-4">
+                <h3 class="color-hung"></span><br>『ハングリー精神』</h3>
+                <p>何事にも貪欲に取り組み、常に目標を追い求めることを大切にしています。</p>
+              </div>
+
+              <div class="col-sm-4">
+                <h3 class="color-soft"><br>『柔軟性』</h3>
+                <p>固定観念にとらわれず、柔軟な思考を大切にしています。</p>
+              </div>
+
+              <div class="col-sm-4">
+                <h3 class="color-plus"><br>『前向き』</h3>
+                <p>前向きに課題と向き合い、挑戦することを大切にしています。</p>
+              </div>
+            </div>
+            <hr>
+
+            <!-- Works -->
+            <h2 id="works" class="text-center">Works</h2>
+            <div class="row">
+              <div class="col-sm-6">
+                <h3>怪談話作成機</h3>
+                <p>プログラミングを始めて最初に制作した作品。「MDN web docs」の「Silly story generator」を参考に作成。<br>
+                この作品は名前を入れると、入力した名前を主人公とした怪談話が出来上がるという仕組み。怖い雰囲気を出すために、黒を背景に、赤や白といった文字を使用し、シンプルなデザインで作成。<br><br>
+                ※参考元のMDNでは、英語で面白い話が作成できるアプリケーション。<br><a href="https://github.com/Kota-Higa/horror_story_generator.git">view code</a></p>
+                </p>
+                <span class="badge rounded-pill">JavaScript</span>
+                <span class="badge rounded-pill">HTML/CSS</span>
+              </div>
+              <div class="col-sm-6">
+                <a href="https://kota-higa.github.io/horror_story_generator/"><img src="img/horror_story_generator.png" alt="作品画像"></a>
+              </div>
+            </div>
+                
+            <div class="row">
+              <div class="col-sm-6">
+                <h3>簡易掲示板</h3>
+                <p>約２ヶ月のインターンで作成。<br>内容は、７〜８人のグループで同じ簡易掲示板を作成し、相談し合いながらチーム全員完成を目指す。<br>簡易掲示板サイトから[名前]と[メッセージ]、[パスワード]を受け取り、[投稿番号]、[名前]、[メッセージ]、[投稿日時]を表示することができる。また、[投稿番号]と[パスワード]を入力することで削除・編集を行うことをできるようにした。<br>
+                <a href="https://github.com/Kota-Higa/keijiban.git">view code</a></p>
+                <span class="badge rounded-pill">PHP</span>
+                <span class="badge rounded-pill">MySQL</span>
+                <span class="badge rounded-pill">HTML/CSS</span>
+
+
+
+              </div>
+              <div class="col-sm-6">
+                <img src="img/keijiban.png" alt="作品画像">
+              </div>
+            </div>
+
+            <!--
+            <div class="row">
+              <div class="col-sm-6">
+                <h3>作品タイトル</h3>
+                <p>作品説明</p>
+              </div>
+              <div class="col-sm-6">
+                <img src="" alt="作品画像">
+              </div>
+            </div>
+            -->
+
+            <hr>
+ 
+            <!-- Skill -->
+            <h2 id="skills" class="text-center">Skills</h2>
+            <div class="row">
+              <div class="col-sm-12">
+                <h3>フロントエンド</h3>
+                <ul>
+                  <li>HTML/CSS  &emsp; ★★★☆☆</li>
+                  <li>JavaScript &emsp; ★★★☆☆</li>
+                  <li>React &emsp; ★☆☆☆☆</li>
+                </ul>
+                <h3>バックエンド</h3>
+                <ul>
+                  <li>Python  &emsp; ★★★☆☆</li>
+                  <li>PHP &emsp; ★★☆☆☆</li>
+                  <li>Node.js &emsp; ★☆☆☆☆</li>
+                </ul>
+                <h3>DB</h3>
+                <ul>
+                  <li>MySQL  &emsp; ★★☆☆☆</li>
+              </div>
+            </div>
+          
+            <div class="row starter-template text-center" >
+            <a class="btn btn-primary" href="#">Topに戻る</a>
+        </div>
+    </div>
+    <!-- /.container -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+</body>
+
+</html>
